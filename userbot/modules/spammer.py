@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# OwenUserBot - ErdewBey - Midy - ByMisakiMey
+# MytUserBot - Meyitzade47
 
 
 import asyncio
@@ -24,7 +24,7 @@ LANG = get_value("spam")
 @register(outgoing=True, pattern="^.tspam")
 async def tmeme(e):
     if e.chat_id in BLACKLIST_CHAT:
-        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@erdewbey & @ByLeviAckerman) `Ben Spam Yapmaya Çalıştım``")
+        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@meyitzade47) `Ben Spam Yapmaya Çalıştım``")
     message = e.text
     messageSplit = message.split(" ", 1)
     tspam = str(messageSplit[1])
@@ -42,7 +42,7 @@ async def tmeme(e):
 @register(outgoing=True, pattern="^.spam")
 async def spammer(e):
     if e.chat_id in BLACKLIST_CHAT:
-        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@erdewbey & @ByLeviAckerman) `Ben Spam Yapmaya Çalıştım``")
+        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@meyitzade47) `Ben Spam Yapmaya Çalıştım``")
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
         messageSplit = message.split(" ", 2)
@@ -60,7 +60,7 @@ async def spammer(e):
 @register(outgoing=True, pattern="^.bigspam")
 async def bigspam(e):
     if e.chat_id in BLACKLIST_CHAT:
-        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@erdewbey & @ByLeviAckerman) `Ben Spam Yapmaya Çalıştım``")
+        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@meyitzade47) `Ben Spam Yapmaya Çalıştım``")
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
         messageSplit = message.split(" ", 2)
@@ -80,7 +80,7 @@ async def bigspam(e):
 @register(outgoing=True, pattern="^.picspam")
 async def tiny_pic_spam(e):
     if e.chat_id in BLACKLIST_CHAT:
-        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@erdewbey & @ByLeviAckerman) `Ben Spam Yapmaya Çalıştım``")
+        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@meyitzade47) `Ben Spam Yapmaya Çalıştım``")
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
         text = message.split()
@@ -100,7 +100,7 @@ async def tiny_pic_spam(e):
 @register(outgoing=True, pattern="^.delayspam")
 async def delayspammer(e):
     if e.chat_id in BLACKLIST_CHAT:
-        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@erdewbey & @ByLeviAckerman) `Ben Spam Yapmaya Çalıştım``")
+        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@meyitzade47) `Ben Spam Yapmaya Çalıştım``")
     # Teşekkürler @ReversedPosix
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
@@ -124,7 +124,7 @@ async def delayspammer(e):
 @register(outgoing=True, pattern="^.mspam(?: |$)(.*)")
 async def media_spam(event):
     if e.chat_id in BLACKLIST_CHAT:
-        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@erdewbey & @ByLeviAckerman) `Ben Spam Yapmaya Çalıştım``")
+        return await e.reply("`Sence Ben Kendi Grubuma Spam Yapılmasına İzin Verirmiyim` \n(@meyitzade47) `Ben Spam Yapmaya Çalıştım``")
     if event.fwd_from:
         return
     
