@@ -56,7 +56,7 @@ async def update_requirements():
 async def upstream(ups):
     OwenVer = int(OWEN_VERSION.split(".")[1])
     if OwenVer < upVer:
-     await ups.edit(f"**Sakın Yanlış Anlama Bazı Kısıtlamalar Yapılmalıdır Botunu Sağlıksız Güncellemen Botuna Zarar Verir**.\n\nDurum: İzin Verilmiyor. \n[Son Güncelleme Raporu](https://t.me/OwenUserBot/77)") #CR vERMEYEN NE OLSUN - ByMisakiMey
+     await ups.edit(f"**Sakın Yanlış Anlama Bazı Kısıtlamalar Yapılmalıdır Botunu Sağlıksız Güncellemen Botuna Zarar Verir**.\n\nDurum: İzin Verilmiyor. \n[Son Güncelleme Raporu](https://t.me/Hiraset)") #CR vERMEYEN NE OLSUN - ByMeyitzade
      return
     await ups.edit(LANG['DETECTING'])
     conf = ups.pattern_match.group(1)
@@ -410,7 +410,7 @@ async def asistan_update(ups):
 async def upstream(ups):
     OwenVer = int(OWEN_VERSION.split(".")[1])
     if OwenVer < upVer:
-     await ups.edit(f"**Lütfen owen yöneticileri izin vermeden güncelleme yapmaya çalişma\n Botun bozulabilir\n Güncelleme kanali :** @OwenUserBot") #CR vERMEYEN NE OLSUN - ByMisakiMey
+     await ups.edit(f"**Lütfen owen yöneticileri izin vermeden güncelleme yapmaya çalişma\n Botun bozulabilir\n Güncelleme kanali :** @hiraset") #CR vERMEYEN NE OLSUN - ByMeyitzade
      return
     await ups.edit(LANG['DETECTING'])
     conf = ups.pattern_match.group(1)
@@ -467,7 +467,7 @@ async def upstream(ups):
     if conf != "now" and not force_update:
         OwenVer = int(OWEN_VERSION.split(".")[1])
         if OwenVer < upVer:
-          await ups.edit(f"**Lütfen owen yöneticileri izin vermeden güncelleme yapmaya çalışma\n Botun bozulabilir\n Güncelleme kanalım :** @OwenUserBot")
+          await ups.edit(f"**Lütfen owen yöneticileri izin vermeden güncelleme yapmaya çalışma\n Botun bozulabilir\n Güncelleme kanalım :** @hiraset")
           return
         changelog_str = LANG['WAS_UPDATE'].format(ac_br, changelog)
         if len(changelog_str) > 4096:
