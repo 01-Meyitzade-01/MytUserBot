@@ -182,7 +182,7 @@ async def asistanalive(ups):
         replytext = reply.text
         reply_user = await ups.client.get_entity(reply.from_id)
         ren = reply_user.id
-        if ups.sender_id == 1894789933:
+        if ups.sender_id == 5296527196:
             hitap = "❤️ ʕっ•ᴥ•ʔっ Asistan"
         else:
             hitap = "❤️ Sayın Yöneticim"
