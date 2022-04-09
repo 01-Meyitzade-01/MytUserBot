@@ -77,7 +77,7 @@ def owen(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**ASİSTAN HATA RAPORU**\n"
-                    link = "[Owen Destek Grubu](https://t.me/OwenSupport)"
+                    link = "[Myt Destek Grubu](https://t.me/HirasetTR)"
                     text += "İsterseniz, bunu rapor edebilirsiniz"
                     text += f"- sadece bu mesajı buraya iletin {link}.\n"
                     text += "Hata ve Tarih dışında hiçbir şey kaydedilmez\n"
