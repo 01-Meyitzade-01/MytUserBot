@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# OwenUserBot - ErdewBey - Midy
+# MytUserBot - Meyitzade47
 
 
 """ Birkaç küçük komutu içeren UserBot modülü. """
@@ -51,7 +51,7 @@ async def randomise(items):
 
 @register(outgoing=True, pattern="^.sleep( [0-9]+)?$")
 async def sleepybot(time):
-    """ .sleep komutu Owen'nın birkaç saniye uyumasına olanak sağlar. """
+    """ .sleep komutu Myt'nin birkaç saniye uyumasına olanak sağlar. """
     if " " not in time.pattern_match.group(1):
         await time.reply(LANG['SLEEP_DESC'])
     else:
