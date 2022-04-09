@@ -40,8 +40,8 @@
             "P6": "'Plugin kanalından direkt olarak Plugini yükler.'"
         },
         "__owen": {
-            "NEED_PLUGIN": "💻 Lütfen bir Owen modülü adı belirtin.",
-            "NEED_MODULE": "Owen UserBot Modül List \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ Lütfen hangi Owen modülü için yardım istediğinizi belirtin !!\nKullanım: .owen <modül adı>"
+            "NEED_PLUGIN": "💻 Lütfen bir Myt modülü adı belirtin.",
+            "NEED_MODULE": "Myt UserBot Modül List \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ Lütfen hangi Myt modülü için yardım istediğinizi belirtin !!\nKullanım: .owen <modül adı>"
         },
         "__helpme": {
             "NO_BOT": "`Bot çalışmıyor! Lütfen Bot Tokeni ve Kullanıcı adını doğru ayarlayın. Modül durduruldu.`"
@@ -185,7 +185,7 @@
             "ALREADY": "`Görünüşe göre %s zaten otomatik olarak değişiyor.`",
             "SETTING": "`%s ayarlanıyor...`",
             "BIO": "📆 Tarih: {tarih} | ⏰ Saat: {saat} | ",
-            "NICK": "@OwenUserBot ❤ @OwenProjects",
+            "NICK": "@HirasetTR ❤ @hiraset",
             "SETTED": "`%s ayarlandı :)`",
             "NAME": "⌚%s",
             "AUTO1": "'isim ya da bio'",
@@ -207,7 +207,7 @@
             "AUTOPP4": "'.autovideo ahan saat $saat bu da tarih $tarih'"
         },
         "botfather": {
-            "ERROR": "`⛔ Owennin Bot Oluşturması İçin Eksik Bilgi Verme Lütfen!`",
+            "ERROR": "`⛔ Myt'nin Bot Oluşturması İçin Eksik Bilgi Verme Lütfen!`",
             "BOTF1": "'<bot_name><bot_username>'",
             "BOTF2": "'Yeni Bot Oluşturun'"
         },
@@ -263,8 +263,8 @@
             "EFECTING": "`Efekt uygulanıyor...`",
             "NOT_FOUND_EFECT": "**Belirttiğiniz efekt bulunamadı! **`Kullanılabileceğiniz efektler: ``çocuk/robot/earrape/hızlı/parazit/yankı`",
             "NEED_VIDEO": "`Lütfen bir videoya yanıt verin!`",
-            "WITH_OWEN":"@OwenUserBot `ile efekt uygulandı.`",
-            "WITH_OWEN_GIF": "@OwenUserBot `ile Gif'e çevirildi.`",
+            "WITH_OWEN":"MytUserBot `ile efekt uygulandı.`",
+            "WITH_OWEN_GIF": "MytUserBot `ile Gif'e çevirildi.`",
             "CONVERTING_TO_GIF": "Gif'e çeviriliyor...",
             "UPLOADING_GIF": "`Gif yükleniyor...`",
             "ERROR": "Gif'e çeviremedim :/",
@@ -520,16 +520,16 @@
             "GOODMORNIN_YALL": "`Günaydın!`",
             "GOODBYE_MFRS": "`Görüşürüz... *Windows XP kapanma sesi*`",
             "RESTARTING": "`Bot yeniden başlatılıyor...`",
-            "SUPPORT_GROUP": "[Buradan](http://t.me/OwenSupport) destek grubumuza ulaşabilirsiniz.",
+            "SUPPORT_GROUP": "[Buradan](http://t.me/HirasetTR) destek grubumuza ulaşabilirsiniz.",
             "CREATOR": "Bu Bot @OwenProjects Ekibi Tarafından Yapılmıştır.",
-            "README": "[Owen README.md](https://github.com/erdewbey/OwenUserBot/blob/master/README.md)",
-            "REPO": "[Owen Repo](https://github.com/erdewbey/owenuserbot)",
+            "README": "[Myt README.md](https://github.com/01-Meyitzade-01/OwenUserBot/blob/master/README.md)",
+            "REPO": "[Myt Repo](https://github.com/01-Meyitzade-01/owenuserbot)",
             "CHECK_LOGS": "`Çözülmüş mesaj için userbot loglarını kontrol et!`",
             "MS1": "'<eşya1> <eşya2> ... <eşyaN>'",
             "MS2": "'Eşya listesinden rastgele bir eşya seçer'",
             "MS3": "'random owen uniborg userge'",
             "MS4": "'<süre>'",
-            "MS5": "'Owen de bir insan, o da yoruluyor. Ara sıra biraz uyumasına izin ver.'",
+            "MS5": "'Myt User Bot da bir insan, o da yoruluyor. Ara sıra biraz uyumasına izin ver.'",
             "MS6": "'sleep 30'",
             "MS7": "'Nostaljik bir şekilde botunuzu kapatın.'",
             "MS8": "'Owen botunun GitHubdaki reposuna giden bir bağlantı.'",
@@ -567,7 +567,7 @@
             "OCR3": "'Dil kodlarını [buradan](https://ocr.space/ocrapi) alın'"
         },
         "playstore": {
-            "SEARCH": "`🔎Owen Verdiğiniz Program Arıyor..`",
+            "SEARCH": "`🔎 MytUserBot Verdiğiniz Program Arıyor..`",
             "EKS": "`⛔ Lütfen Program adı yazın.. Örnek`",
             "NOT_FOUND": "`⛔ Verdiğiniz Programı Bulamadım..`",
             "PUAN": "Puan :",
@@ -852,18 +852,18 @@
             "NOT_FOUND": "klasörü bulunamadı.",
             "GIT_ERROR": "Git hatası!",
             "NOT_GIT": "klasörü bir git reposu gibi görünmüyor. \nFakat bu sorunu .update now komutuyla botu zorla güncelleyerek çözebilirsin.",
-            "INVALID_BRANCH": "**[UPDATER]:**` Galiba Owen botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen Owen botunu resmi repodan kullan.`",
-            "UPDATE": "𝙊𝙬𝙚𝙣 𝑼𝒔𝒆𝒓𝑩𝒐𝒕 ⤴ \n\n**✅  Şu an en güncel durumdayım!** \n**⚡ Branch: {}**",
-            "WAS_UPDATE": "𝙊𝙬𝙚𝙣 𝑼𝒔𝒆𝒓𝑩𝒐𝒕 ⤴ \n **{} yeni güncelleme mevcut!\n\nDeğişiklikler:**\n`{}`",
+            "INVALID_BRANCH": "**[UPDATER]:**` Galiba Myt botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen Myt botunu resmi repodan kullan.`",
+            "UPDATE": "Myt 𝑼𝒔𝒆𝒓𝑩𝒐𝒕 ⤴ \n\n**✅  Şu an en güncel durumdayım!** \n**⚡ Branch: {}**",
+            "WAS_UPDATE": "Myt 𝑼𝒔𝒆𝒓𝑩𝒐𝒕 ⤴ \n **{} yeni güncelleme mevcut!\n\nDeğişiklikler:**\n`{}`",
             "BIG": "`Değişiklik listesi çok büyük, dosya olarak görüntülemelisin.`",
             "DO_UPDATE": "`Güncellemeyi yapmak için \".update now\" komutunu kullan.`",
             "FORCE_UPDATE": "`Güncel stabil userbot kodu zorla eşitleniyor...`",
             "UPDATING": "`Bot güncelleştiriliyor...`",
-            "INVALID_APPNAME": "✨ Owen UserBot Update ✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Hata:** __Güncelleyiciyi kullanabilmek için HEROKU_APPNAME değişkenini tanımlamalısın.__",
+            "INVALID_APPNAME": "✨ Myt UserBot Update ✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Hata:** __Güncelleyiciyi kullanabilmek için HEROKU_APPNAME değişkenini tanımlamalısın.__",
             "INVALID_HEROKU": "{}\n`Heroku değişkenleri yanlış veya eksik tanımlanmış.`",
-            "HEROKU_UPDATING": "✨ Owen UserBot Update ✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum**: __Güncelleniyor..\n\n💌 UserBot'unuz daha iyi olacağınıza emin olabilirsiniz :) Bu işlem maksimum 10 dakika sürmektedir.__",
+            "HEROKU_UPDATING": "✨ Myt UserBot Update ✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum**: __Güncelleniyor..\n\n💌 UserBot'unuz daha iyi olacağınıza emin olabilirsiniz :) Bu işlem maksimum 10 dakika sürmektedir.__",
             "ERRORS": "Karşılaşılan hatalar burada",
-            "SUCCESSFULLY": "✨ Owen UserBot Update ✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum:** __Güncelleme başarıyla tamamlandı!\n\n🔄 Yeniden başlatılıyor...__",
+            "SUCCESSFULLY": "✨ Myt UserBot Update ✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum:** __Güncelleme başarıyla tamamlandı!\n\n🔄 Yeniden başlatılıyor...__",
             "UP1": "'Botunuza siz kurduktan sonra herhangi bir güncelleme gelip gelmediğini kontrol eder.'",
             "UP2": "'Botunuzu günceller.'"
         },
@@ -987,7 +987,7 @@
             "EM1": "'<sebep>'",
             "EM2": "'Gruptaki Üyeleri Emojili Bir Şekilde Etiketler.'",
             "EM3": "'Etiketleme işlemini durdurur.'",
-            "EM4": "'👌 Neden yazmak Zorunda Değilsiniz @erdewbey'"
+            "EM4": "'👌 Neden yazmak Zorunda Değilsiniz @meyitzade47'"
         },
         "fontlar": {
             "FONT1": "'.font1-13 erdem bey şeklinde'"
@@ -1111,7 +1111,7 @@
             "S1": "'<bir mesaja yanıt verin>'",
             "S2": "'Yanıt verdiyiniz mesajı Kayıtlı Mesajlar(Saved Messages) bölümüne gönderir.'",
 	    "REPLY_MESSAGE": "`Lütfen bir mesaja yanıt verin.`",
-            "SUCCESSFUL": "`Owen Mesajı Kayıtlı Mesajlar Bölümüne Yolladı!`"
+            "SUCCESSFUL": "`Myt Mesajı Kayıtlı Mesajlar Bölümüne Yolladı!`"
         },
         "scra": {
             "": ""
@@ -1127,11 +1127,11 @@
             "VC1": "'Bir grupta sesli sohbet başlatır.'",
             "VC2": "'Sesli sohbeti sonlandırır.'",
             "VC3": "'Gruptaki üyeleri sesli sohbete davet eder.'",
-            "VC4": "'@OwenUserBot Sesli Sohbet Modülüdür.'"
+            "VC4": "'MytUserBot Sesli Sohbet Modülüdür.'"
         },
         "texts": {
             "TE1": "'kelimeleri daha süslü bir şekilde yazar oto renk ve font seçiimi yapar.'",
-            "TE2": "'modul bozuk değildir sadece geç çalışmaktadır ama yakın zamanda giderilecektir. @erdewbey'"
+            "TE2": "'modul bozuk değildir sadece geç çalışmaktadır ama yakın zamanda giderilecektir. @meyitzade47'"
         },
         "tghp": {
             "TG1": "'<m/t>'",
@@ -1173,7 +1173,7 @@
         "smsg": {
             "SM1": "'.pmyaz <kullanıcı/grup/kanal/bot linki> <mesajınız>'",
             "SM2": "'Yazdığınız mesajı veya yanıtladığınız mesajı belirttiğiniz linke gönderir'",
-            "SM3": "'.send @owenuserbot selam'"
+            "SM3": "'.send MytUserBot selam'"
         }
     }
 }
