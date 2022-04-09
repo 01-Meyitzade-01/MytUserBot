@@ -84,7 +84,7 @@ async def update_spotify_info():
             if song != oldsong and artist != oldartist:
                 oldartist = artist
                 environ["oldsong"] = song
-                spobio = "@OwenUserBot 🎧: " + artist + " - " + song
+                spobio = "@MytUserBot 🎧: " + artist + " - " + song
                 try:
                     await bot(UpdateProfileRequest(about=spobio))
                 except AboutTooLongError:
@@ -301,7 +301,7 @@ async def getmp3(event):
         songinfo = info[1]         
         msgs = info[2]
         try:
-            chat = "@DeezerMusicBot"
+            chat = "@Myt_Music_Bot"
             async with bot.conversation(chat) as conv:
                 try:     
                     await conv.send_message(songinfo)
