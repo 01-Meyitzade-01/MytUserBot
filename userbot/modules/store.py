@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# OwenUserBot - ErdewBey - Midy
+# MytUserBot - Meyitzade -
 
 import os
 from telethon.tl.types import InputMessagesFilterDocument
@@ -28,7 +28,7 @@ LANG = get_value("__plugin")
 @register(outgoing=True, pattern="^.ma[gğ]aza ?(.*)")
 async def magaza(event):
     plugin = event.pattern_match.group(1)
-    await event.edit('** Owen Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i Getiriyorum, Lütfen Bekle!`')
+    await event.edit('** Myt Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i Getiriyorum, Lütfen Bekle!`')
     split = plugin.split()
     if plugin == '':
         plugin = 'Son Yüklenen'
@@ -68,11 +68,11 @@ async def sinstall(event):
     except:
         return await event.edit('**Owen Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Hata:** `Lütfen Sadece Say Yazınız .sinstall pluginid`')
     
-    await event.edit('**Owen Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i Getiriyorum...`')
+    await event.edit('**Myt Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i Getiriyorum...`')
     plugin = await event.client.get_messages('@owenplugin', ids=plugin)
-    await event.edit(f'**Owen Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} Plugini Getirildi!`\n`⬇️ Plugini Yüklüyorum... Bekleyin.`')
+    await event.edit(f'**Myt Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} Plugini Getirildi!`\n`⬇️ Plugini Yüklüyorum... Bekleyin.`')
     dosya = await plugin.download_media('./userbot/modules/')
-    await event.edit(f'**Owen Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} indirme başarılı!`\n`⬇️ Plugini Yüklüyorum... Bekleyin.`')
+    await event.edit(f'**Myt Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} indirme başarılı!`\n`⬇️ Plugini Yüklüyorum... Bekleyin.`')
     
     try:
         spec = importlib.util.spec_from_file_location(dosya, dosya)
@@ -80,7 +80,7 @@ async def sinstall(event):
         spec.loader.exec_module(mod)
     except Exception as e:
         os.remove("./userbot/modules/" + dosya)
-        return await event.edit(f'**Owen Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Hata:** `Plugin Hatalı. {e}`\n**LÜTFEN BUNU ADMİNLERE BİLDİRİN!**')
+        return await event.edit(f'**Myt Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Hata:** `Plugin Hatalı. {e}`\n**LÜTFEN BUNU ADMİNLERE BİLDİRİN!**')
 
     dosy = open(dosya, "r").read()
     if re.search(r"@tgbot\.on\(.*pattern=(r|)\".*\".*\)", dosy):
