@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# OwenUserBot - ErdewBey 
+# MytUserBot - Meyitzade47
 
 import datetime
 from telethon import events
@@ -327,7 +327,7 @@ async def voicy(event):
         elif response.text.startswith("__👮"):
             await event.edit(LANG['VOICY_ERR'])
         else:
-            res = response.text.replace("Powered by [Todorant](https://todorant.com/?utm_source=voicy)","`\n❤️ __by @OwenUserbot__")
+            res = response.text.replace("Powered by [Todorant](https://todorant.com/?utm_source=voicy)","`\n❤️ __by @hiraset__")
             await event.edit(f"**{LANG['HEAR_SOMETHING']}: **`{res}")
 
 @register(outgoing=True, pattern="^.q(?: |$)(.*)")
