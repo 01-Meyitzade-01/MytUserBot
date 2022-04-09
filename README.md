@@ -23,11 +23,10 @@
 
 🇹🇷**Tarayıcı Kurulum / Online Setup**
 
-[![Run on Repl.it](https://repl.it/badge/github/erdewbey/oweninstaller)](https://repl.it/@erdewbey/oweninstaller)
+[![Run on Repl.it](https://repl.it/badge/github/01-Meyitzade-01/Mytinstaller)](https://repl.it/@meyitzade47/Mytinstaller)
 
 ### 🇹🇷 Elle Kurulum / Manual Setup 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/01-Meyitzade-01/OwenUserBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/01-Meyitzade-01/MytUserBot)
 
 ## 🇹🇷 Bilgilendirme / İnformation 
 ***Herhangi bir istek & şikayet & öneriniz varsa [destek grubuna](https://t.me/OwenSupport) ulaşabilirsiniz.***
