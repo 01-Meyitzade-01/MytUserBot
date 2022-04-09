@@ -1,11 +1,11 @@
 
-# Copyright (C) 2021 OwenProjects.
+# Copyright (C) 2021 MytProjects.
 #
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
 
-# OwenUserBot - ByMisakiMey - ErdewBey 
+# MytUserBot - Meyitzade47
 #
 import glob
 import os
@@ -92,7 +92,7 @@ async def logo_gen(event):
         await event.client.send_file(
             event.chat_id,
             file=fayladi,
-            caption=f"[OwenUserBot](https://t.me/owenuserbot) **{DEFAULT_NAME}** için logo hazırladı.",
+            caption=f"[MytUserBot](https://t.me/HirasetTR) **{DEFAULT_NAME}** için logo hazırladı.",
             force_document=True,
         )
         os.remove(fayladi)
@@ -104,6 +104,6 @@ async def logo_gen(event):
             os.remove(font_)
 
 Help = CmdHelp('logo')
-Help.add_command('logo', '<yazı>', '@OwenUserBot sizin için logo hazırlar.')
-Help.add_info('@OwenUserBot - @ByMisakiMey ')
+Help.add_command('logo', '<yazı>', '@MytUserBot sizin için logo hazırlar.')
+Help.add_info('@MytUserBot - @Meyitzade47 ')
 Help.add() 
