@@ -31,9 +31,9 @@ import glob
 
 ALIVE_MSG = [
     "`Userbotunuz çalışıyor ve sana bişey demek istiyor.. Seni seviyorum` **{owensahip}** ❤️ \n Bot Versiyonu: {owen} ",
-    "🎆 `Endişelenme! Seni yanlız bırakmam.` **{owensahip}**, `OwenUserbot çalışıyor.` \n Bot Versiyonu: {owen} ",
+    "🎆 `Endişelenme! Seni yanlız bırakmam.` **{owensahip}**, `MytUserbot çalışıyor.` \n Bot Versiyonu: {owen} ",
     "`⛈️ Elimden gelenin en iyisini yapmaya hazırım`, **{owensahip}** \n Bot Versiyonu: {owen} ",
-    "✨ `OwenUserBot sahibinin emirlerine hazır...` \n Bot Versiyonu: {owen} ",
+    "✨ `MytUserBot sahibinin emirlerine hazır...` \n Bot Versiyonu: {owen} ",
     "`Şuan en gelişmiş userbotun düzenlediği mesajı okuyor olmalısın` **{owensahip}**. \n Bot Versiyonu: {owen} ",
     "`Benimi Aramıştın ❓ Ben Buradayım Merak Etme` \n Bot Versiyonu: {owen} "
 ]
@@ -93,7 +93,7 @@ CV_MSG = [
 ]
 
 
-UNAPPROVED_MSG = ("`Hey olduğun yerde kal,!👨‍💻 Ben Owen. Endişelenme!\n\n`"
+UNAPPROVED_MSG = ("`Hey olduğun yerde kal,!👨‍💻 Ben Myt. Endişelenme!\n\n`"
                   "`Sahibim sana mesaj atma izni vermedi o yüzden sahibim seni onaylayana kadar bu mesajı alacaksın.. `"
                   "`Lütfen sahibimin aktif olmasını bekleyin, o genellikle PM'leri onaylar.\n\n`"
                   "`Bildiğim kadarıyla o kafayı yemiş insanlara PM izni vermiyor.`")
@@ -179,8 +179,8 @@ try:
     idim = bot.get_me().id
     owenbl = requests.get('https://raw.githubusercontent.com/erdewbey/datas/master/blacklist.json').json()
     if idim in owenbl:
-        bot.send_message("me", f"`❌ Owen yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
-        LOGS.error("Owen yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
+        bot.send_message("me", f"`❌ Myt yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
+        LOGS.error("Myt yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
         bot.disconnect()
     # ChromeDriver'ı Ayarlayalım #
     try:
@@ -280,11 +280,11 @@ if BOT_TOKEN:
 os.system("clear")
 
 LOGS.info("+===========================================================+")
-LOGS.info("|                     ✨Owen Userbot✨                       |")
+LOGS.info("|                     ✨Myt Userbot✨                       |")
 LOGS.info("+==============+==============+==============+==============+")
 LOGS.info("|                                                            |")
 LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive yazarak Test edin."
-          " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/OwenSupport")
+          " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/HirasetTR")
 LOGS.info(f"Bot versiyonunuz: Owen ==> {OWEN_VERSION}")
 
 """
