@@ -11,7 +11,7 @@ async def _(misaki):
 		await misaki.edit(' '+str(i))
 		sleep({slep})
 Help = CmdHelp("owenuserbot{fayl_adi}")
-Help.add_command("{name}", None, "Bu plugin @OwenUserBot tarafından hazırlanmıştır.")
+Help.add_command("{name}", None, "Bu plugin MytUserBot tarafından hazırlanmıştır.")
 Help.add()
 								""")
 	return f.close()
@@ -31,7 +31,7 @@ async def _(misaki):
 		await misaki.edit(text)
 		sleep({slep})
 Help = CmdHelp("owenuserbot{fayl_adi}")
-Help.add_command("{name}", None, "Bu plugin @OwenUserBot tarafından hazırlanmıştır.")
+Help.add_command("{name}", None, "Bu plugin MytUserBot tarafından hazırlanmıştır.")
 Help.add()
 								""")
 	return f.close()
@@ -49,7 +49,7 @@ async def _(misaki):
 	await misaki.client.send_file(misaki.chat_id, random_)
 	await misaki.delete()
 Help = CmdHelp("owenuserbot{fayl_adi}")
-Help.add_command("{name}", None, "Bu plugin @OwenUserBot tarafından hazırlanmıştır.")
+Help.add_command("{name}", None, "Bu plugin MytUserBot tarafından hazırlanmıştır.")
 Help.add()
 		""")
 
@@ -79,12 +79,12 @@ async def misakimusic(misaki):
                 await misaki.edit("`Müzik Yükleniyor!")
                 yukle = await rast.download_media()
                 await misaki.edit("`Yükleme tamamlandı!`")
-                await misaki.client.send_file(misaki.chat_id, yukle, caption="@OwenUserBot sizin için `"+rast.description+" - "+rast.title+"` müziğini seçti iyi dinlemeler. :)")
+                await misaki.client.send_file(misaki.chat_id, yukle, caption="MytUserBot sizin için `"+rast.description+" - "+rast.title+"` müziğini seçti iyi dinlemeler. :)")
                 await event.delete()
                 os.remove(yukle)
                 netice = True
 Help = CmdHelp("owenuserbot{fayl_adi}")
-Help.add_command("{name}", None, "Bu Plugin @OwenUserBot Tərəfindən Hazırlanmışdır..")
+Help.add_command("{name}", None, "Bu Plugin MytUserBot Tərəfindən Hazırlanmışdır..")
 Help.add()
 		""".format(
 siyahi=siyahi,
