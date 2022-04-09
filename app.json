@@ -1,7 +1,7 @@
 {
-  "name": "Owen UserBot",
-  "description": "Owen UserBot",
-  "logo": "https://i.hizliresim.com/9tep7oz.jpg",
+  "name": "Myt UserBot",
+  "description": "Myt UserBot",
+  "logo": "",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,9 +10,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/OwenProjects/OwenUserBot",
-  "website":   "https://t.me/OwenProjects",
-  "success_url": "https://t.me/Owenuserbot",
+  "repository": "https://github.com/01-Meyitzade-01/OwenUserBot",
+  "website":   "https://t.me/HirasetTR",
+  "success_url": "https://t.me/meyitzade47",
   "stack": "container",
   "env": {
     "API_KEY": {
