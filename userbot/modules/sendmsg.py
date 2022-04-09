@@ -1,5 +1,5 @@
 """
-Erdem Bey / OwenUserBot Modul birleştirmesi
+Meyitzade47 / MytUserBot Modul birleştirmesi
 """
 import re
 import os
@@ -31,15 +31,15 @@ async def pm(event):
     mssg = await event.get_reply_message() 
     if event.reply_to_msg_id:
         await event.client.send_message(chat_id, mssg)
-        await event.edit("@OwenUserBot `Mesajı gönderdi ✔️`")
+        await event.edit("@MytUserBot `Mesajı gönderdi ✔️`")
     for i in m[1:]:
         msg += i + " "
     if msg == "":
         return
     try:
         await event.client.send_message(chat_id, msg)
-        await event.edit("@OwenUserBot `Mesajı gönderdi ✔️`")
+        await event.edit("@MytUserBot `Mesajı gönderdi ✔️`")
     except BaseException:
-        await event.edit("** @OwenUserBot Mesajınızı Gönderemedi :(**")
+        await event.edit("** @MytUserBot Mesajınızı Gönderemedi :(**")
         
 CmdHelp('sendmsg').add_command('send', LANG['SM1'], LANG['SM2'], LANG['SM3']).add()
